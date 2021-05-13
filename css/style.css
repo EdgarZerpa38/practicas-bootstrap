@@ -1,0 +1,559 @@
+/*Propiedades generales*/
+
+.flex-box{
+    display: flex;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.blue-text{
+    color: #0176FC;
+}
+
+.orange-text{
+    color: #FC9222;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.img-center{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.white-color{
+    color: #fff;
+}
+
+.margin-auto{
+    margin: 0 auto;
+}
+
+.text-margin {
+    margin: 50px 0px;
+}
+
+.background-grey{
+    background-color: #f1f1f1;
+}
+
+.background-blue{
+    background-color: #0176FC;
+}
+
+.row-margin{
+
+    margin: 40px 0;
+
+}
+
+.row-padding{
+    padding: 40px 0;
+}
+
+.style-list{
+    list-style: none;
+}
+
+
+/*Header*/
+
+
+.menu-text{
+    display: flex !important;
+    align-items: center;
+}
+
+.menu{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar {
+    display: block !important;
+}
+
+
+/*Banner*/
+
+.img-banner{
+    background-image: url(../img/banner-desktop.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 580px;
+}
+
+
+/*Carreras*/
+
+.boton-carrera{
+    width: 100%;
+    background-color: #0176FC;
+    padding: 15px 0;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+
+.box-boton-carrera{
+    margin: 20px 0;
+}
+
+.autoridades-text{
+    padding: 0 15px;
+}
+
+.autoridades-box{
+    margin: 15px 0;
+}
+
+/*¿Por que estudiar?*/
+
+.carousel-multi-item .controls-top {
+    text-align: center;
+    margin-bottom: 1.88rem;
+}
+
+.carousel-multi-item .controls-top .btn-floating {
+    background: #4285f4;
+}
+
+a.waves-effect, a.waves-light {
+    display: inline-block;
+}
+
+.btn-floating {
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    width: 47px;
+    height: 47px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px;
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.carousel-multi-item .carousel-indicators {
+    margin-bottom: -1em;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-multi-item .carousel-indicators li {
+    height: 1.25rem;
+    width: 1.25rem;
+    max-width: 1.25rem;
+    background-color: #4285f4;
+    margin-bottom: -3.75rem;
+}
+
+.carousel .carousel-indicators li {
+    width: .625rem;
+    height: .625rem;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel .carousel-indicators li {
+    width: .625rem;
+    height: .625rem;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-multi-item .carousel-indicators .active {
+    height: 1.56rem;
+    width: 1.56rem;
+    max-width: 1.56rem;
+    background-color: #4285f4;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*Blog*/
+
+.box-boton-blog{
+    margin: 15px 0;
+}
+
+
+/*¿Por que Advance?*/
+
+.bg-advance{
+    background-image: url(../img/bg-advance.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 580px;
+    position: relative;
+    box-shadow: inset 0em 0em 5em 0em black;
+}
+
+.personas-absolute{
+    position: absolute;
+    top: 3445px;
+    left: 20%;
+    right: 20%;
+}
+
+.box-boton-advance{
+    margin: 280px 15px 0;
+}
+
+
+/*Sedes*/
+
+.boton-sedes{
+    width: 100%;
+    background-color: #FC9222;
+    padding: 15px 0;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+
+.boton-carrera-sede{
+    background-color: transparent;
+    color: #0176FC;
+    padding: 15px 0;
+    border-radius: 25px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #FC9222;
+}
+
+.box-boton-sedes{
+    margin: 15px 0;
+}
+
+.small-boton-naranja{
+    width: 25%;
+    background-color: #FC9222;
+    padding: 0px 0;
+    border-radius: 25px;
+    margin: 0px 0;
+}
+
+/*Tabs 1*/
+
+/* Style tab links */
+.tablink1 {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 1.5vh;
+    width: 20%;
+    height: 90px;
+  }
+  
+  .tablink1:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent1 {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  /**/
+  
+  /*Tabs 2*/
+  
+  /* Style tab links */
+  .tablink2 {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+  }
+  
+  .tablink2:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent2 {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  /**/
+  
+  
+  /*Tabs 3*/
+  
+  /* Style tab links */
+  .tablink3 {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 12.5%;
+  }
+  
+  .tablink3:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent3 {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  /**/
+  
+  
+  /*Tabs 4*/
+  
+  /* Style tab links */
+  .tablink4 {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink4:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent4 {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  /**/
+
+
+/*Footer*/
+
+/*Carreras*/
+
+
+.img-banner-carrera{
+    background-image: url(../img/banner-trabajo-social.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 580px;
+}
+
+
+.img-banner-autoridades{
+    background-image: url(../img/carrera-autoridades.png);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.boton-naranja{
+    background-color: #FC9222;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+
+.boton-azul{
+    background-color: #0176FC;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+
+.boton-gris{
+    background-color: grey;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+
+
+/*Sedes*/
+
+.img-banner-sede{
+    background-image: url(../img/banner-sede.png);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 860px;
+}
+
+.img-sede-conoce{
+    background-image: url(../img/sede-conoce-1.png);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 860px;
+}
+
+/*Agenda*/
+
+.img-banner-agenda{
+    background-image: url(../img/banner-agenda.png);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 860px;
+}
+
+.boton-rojo{
+    background-color: #C00D0D;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+
+/*Buscadores*/
+
+.input-50{
+    width: 49%;
+}
+
+.botones-menu{
+    background-color: transparent;
+    color: #0176FC;
+    padding: 15px 0;
+    border-radius: 25px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+.botones-menu:hover{
+    border: 1px solid #FC9222;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 1199px){
+    .personas-absolute{
+        top: 3380px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .carousel-multi-item .carousel-indicators li {
+        margin-bottom: -1.88rem;
+        }
+    .personas-absolute{
+        top: 3250px;
+    }
+}
+
+@media (max-width: 768px){
+    .menu-text{
+
+        display: inline-block !important;
+
+    }
+    .personas-absolute{
+        position: inherit;
+    }
+    .box-boton-advance {
+        margin: 15px 0;
+    }
+    .flex-box{
+        display: inherit;
+    }
+    .small-boton-naranja{
+        width: 100%;
+        padding: 15px 0;
+    }
+    .style-list{
+        text-align: center;
+    }
+    .img-banner{
+        background-image: url(../img/banner-desktop-mobile.jpg);
+        height: auto;
+    }
+    .img-banner-carrera{
+        background-image: url(../img/banner-trabajo-social-mobile.jpg);
+        height: auto;
+    }
+    .rrss-icon{
+        display: none !important;
+    }
+    .menu-opcion{
+        display: none;
+    }
+}
